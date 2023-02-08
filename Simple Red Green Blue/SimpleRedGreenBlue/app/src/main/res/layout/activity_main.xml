@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="99dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:layout_marginTop="9dp"
+        android:inputType="textPersonName"
+        android:text="Input the xx Value" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:layout_marginTop="9dp"
+        android:inputType="textPersonName"
+        android:text="Input the yy Value" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:layout_marginTop="9dp"
+        android:inputType="textPersonName"
+        android:text="Input the zz Value" />
+
+    <Button
+        android:id="@+id/mainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Generate the Color"/>
+
+    <TextView
+        android:id="@+id/theTextView"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="36dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Color #xxyyzz" />
+
+    <TextView
+        android:id="@+id/myName"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="207dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="202001240 - Jason Caleb Erwin Piay"
+        android:textColor="#000000" />
+
+
+</LinearLayout>
